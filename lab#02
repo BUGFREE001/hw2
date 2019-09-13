@@ -1,0 +1,98 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    int a,b,sum;
+    printf("Enter two numbers: ");
+    scanf("%d%d",&a,&b);
+    sum = a+b;
+    printf("sum = %d", sum);
+    
+    
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    
+    int r;
+    float area,c;
+    printf("enter radius of a circle ");
+    scanf("%d", &r);
+    area=3.14*r*r;
+    c=2*3.14*r;
+    printf("area of circle= %f\n", area);
+    printf("circumference= %f", c);
+    
+    
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    int principle, rate, time;
+   
+    printf("enter principle, rate of interest & time to find sample interest: ");
+    scanf("%d%d%d", &principle,&rate,&time );
+    int sampleinterest=0;
+    sampleinterest = (principle*rate*time)/100;
+    printf("\nsmaple interest= %d", sampleinterest);
+    
+
+    
+    return 0;
+}
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    int c;
+    float f;
+    
+ 
+    printf("enter temp in centigrade: ");
+    scanf("%d",&c); 
+    f=1.8*c+32;
+    printf("temp in Fahrenheit= %f", f);
+      
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    
+ int a,b,c,d,e,sum;
+ double total,p;
+ 
+ printf("enter marks of 5 subjects: ");
+ scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+ printf("enter assumption total number: ");
+ scanf("%lf", &total);
+
+ sum=a+b+c+d+e;
+ p = (sum/total)*100;
+ printf("sum= %d\n",sum);
+
+ printf("percentage= %lf",p);
+ 
+    return 0;
+}
+
